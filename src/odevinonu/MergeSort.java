@@ -5,12 +5,12 @@ public class MergeSort {
 
 	public static void main(String[] args) {
 		
-		System.out.println("KAÇ BOYUTLU BÝR DÝZÝ OLUÞTURACAKSINIZ ? ... =>");
+		System.out.println("KAC BOYUTLU BIR DIZI OLUSTURACAKSINIZ ? ... =>");
 		Scanner klv = new Scanner(System.in);
 		int boyut = klv.nextInt();
 		int [] alinacaklar = new int [boyut];
 		
-		System.out.println("SIRALANMASINI ÝSTEDÝÐÝNÝZ DEÐERLERÝ GÝRÝNÝZ ... =>");
+		System.out.println("SIRALANMASINI ISTEDIGINIZ DEGERLERI GIRINIZ ... =>");
 		for (int i = 0; i < boyut; i++) {
             alinacaklar[i] = klv.nextInt();
         }
