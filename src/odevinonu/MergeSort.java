@@ -61,28 +61,3 @@ public class MergeSort {
 	        	alinacaklar[k++] = r[j++];
 	    }
 	}
-
-
-
-/*System.out.println("KAÇ BOYUTLU BÝR DÝZÝ OLUÞTURACAKSINIZ ? ... =>");
-Scanner klv = new Scanner(System.in);
-int boyut = klv.nextInt();
-int [] sayilar = new int [boyut];
-for(int i=0;i<=boyut;i++) {
-System.out.println("SIRALANMASINI ÝSTEDÝÐÝNÝZ DEÐERLERÝ GÝRÝNÝZ ... =>");
-Scanner girdi = new Scanner(System.in);
-int girilenler = girdi.nextInt();
-
-}*/
-
-
-/*Scanner klavye=new Scanner(System.in);
-System.out.println("KAÇ BOYUTLU BÝR DÝZÝ OLUÞTURACAKSINIZ ? ... =>");
-int n=klavye.nextInt();
-ArrayList <String> alinacaklar=new ArrayList<String>();
-System.out.println("SIRALANMASINI ÝSTEDÝÐÝNÝZ DEÐERLERÝ GÝRÝNÝZ ... => ");
-for(int i=0;i<n;i++){
-    alinacaklar.add(klavye.next());
-} 
-*/
- 
